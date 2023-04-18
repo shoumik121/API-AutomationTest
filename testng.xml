@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RZYAPITest">
+  <listeners>
+  	<listener class-name="api.utilities.ExtentReportManager"/>
+  </listeners>
+  <test name="Regression">
+    <classes>
+      <class name="api.test.DemoUserTests"/>
+      <!-- <class name="api.test.DataDrivenDemo"/> -->
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- RZY API Test -->
