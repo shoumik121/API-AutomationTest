@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="RZYAPITest">
+<suite name="FanFareTest">
   <listeners>
   	<listener class-name="api.utilities.ExtentReportManager"/>
   </listeners>
   <test name="Regression">
     <classes>
-      <class name="api.test.DemoUserTests"/>
+      <!--<class name="api.test.signup.SignupTest"/>-->
+      <class name="api.test.signin.SigninTest"/>
+      <class name="api.test.admin.AdminSearchProductTest"/>
+      <class name="api.test.mobile.homepage.HomepageIntegrationsTest"/>
+      <class name="api.test.fshop.FShopIntegrationsTest"/>
+      <class name="api.test.show.all.contests.ShowAllContestsTest"/>
+      <class name="api.test.show.all.brands.ShowAllBrandsTest"/>
+      <class name="api.test.contest.detail.ContestDetailTest"/>
+      <class name="api.test.playlist.PlaylistTest"/>
+      <class name="api.test.search.SearchTest"/>
+      <class name="api.test.video.VideoTest"/>
+      <class name="api.test.notification.NotificationTest"/>
       <!-- <class name="api.test.DataDrivenDemo"/> -->
     </classes>
   </test> <!-- Regression -->
-</suite> <!-- RZY API Test -->
+</suite> <!-- FANFARE API Test -->

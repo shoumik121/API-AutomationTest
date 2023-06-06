@@ -1,0 +1,478 @@
+<html>
+<head>
+<title>TestNG:  Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>70/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 06 15:18:16 BDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>42 seconds (42351 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.test.signin.SigninTest.TC02_SigninWithPhoneTest()'><b>TC02_SigninWithPhoneTest</b><br>Test class: api.test.signin.SigninTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;Object.toString()&quot; because &quot;dataObject&quot; is null
+	at api.test.signin.SigninTest.TC02_SigninWithPhoneTest(SigninTest.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace786116491", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace786116491'><pre>java.lang.NullPointerException: Cannot invoke &quot;Object.toString()&quot; because &quot;dataObject&quot; is null
+	at api.test.signin.SigninTest.TC02_SigninWithPhoneTest(SigninTest.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>api.test.signin.SigninTest@8519cb4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.test.show.all.contests.ShowAllContestsTest.TC25_showAllperticularTypeContestsCustomTest()'><b>TC25_showAllperticularTypeContestsCustomTest</b><br>Test class: api.test.show.all.contests.ShowAllContestsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.show.all.contests.ShowAllContestsTest@8458f04</td></tr>
+<tr>
+<td title='api.test.search.SearchTest.TC37_searchVideoHashtagTest()'><b>TC37_searchVideoHashtagTest</b><br>Test class: api.test.search.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.search.SearchTest@5e2c3d18</td></tr>
+<tr>
+<td title='api.test.show.all.contests.ShowAllContestsTest.TC24_showAllMyParticipationContestsTest()'><b>TC24_showAllMyParticipationContestsTest</b><br>Test class: api.test.show.all.contests.ShowAllContestsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.show.all.contests.ShowAllContestsTest@8458f04</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC00_signUpTokenGenerationTest()'><b>TC00_signUpTokenGenerationTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC12_homepageTrendingVideosTrendingTagTest()'><b>TC12_homepageTrendingVideosTrendingTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC00_getBannerId()'><b>TC00_getBannerId</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.show.all.brands.ShowAllBrandsTest.TC30_brandContestsTest()'><b>TC30_brandContestsTest</b><br>Test class: api.test.show.all.brands.ShowAllBrandsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.show.all.brands.ShowAllBrandsTest@48075da3</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC20_homepageTravelVideosByHashTagTest()'><b>TC20_homepageTravelVideosByHashTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC21_homepageDecorVideosByHashTagTest()'><b>TC21_homepageDecorVideosByHashTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC54_fshopHomeCategoryChildrensTest()'><b>TC54_fshopHomeCategoryChildrensTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC13_homepageTalentVideosByHashTagTest()'><b>TC13_homepageTalentVideosByHashTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>2</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.show.all.contests.ShowAllContestsTest.TC00_getUserListId()'><b>TC00_getUserListId</b><br>Test class: api.test.show.all.contests.ShowAllContestsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.show.all.contests.ShowAllContestsTest@8458f04</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC53_fshopHomeOfferBannersTest()'><b>TC53_fshopHomeOfferBannersTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.playlist.PlaylistTest.TC33_topUsersTest()'><b>TC33_topUsersTest</b><br>Test class: api.test.playlist.PlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.playlist.PlaylistTest@7a35b0f5</td></tr>
+<tr>
+<td title='api.test.notification.NotificationTest.TC42_showNotificationListTest()'><b>TC42_showNotificationListTest</b><br>Test class: api.test.notification.NotificationTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.notification.NotificationTest@cc43f62</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC22_homepageHomeapplianceVideosByHashTagTest()'><b>TC22_homepageHomeapplianceVideosByHashTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.admin.AdminSearchProductTest.TC00_adminLiveApiTokenGenerator()'><b>TC00_adminLiveApiTokenGenerator</b><br>Test class: api.test.admin.AdminSearchProductTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.admin.AdminSearchProductTest@909217e</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC43_fshopcartProductsTest()'><b>TC43_fshopcartProductsTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC00_adminSignInTokenGenerationTest()'><b>TC00_adminSignInTokenGenerationTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC56_fshopHomeBannerProductsTest()'><b>TC56_fshopHomeBannerProductsTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC62_fshopWishlistProductsTest()'><b>TC62_fshopWishlistProductsTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.video.VideoTest.TC41_singleVideoTest()'><b>TC41_singleVideoTest</b><br>Test class: api.test.video.VideoTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.video.VideoTest@2cb4893b</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC10_homepageOffersTest()'><b>TC10_homepageOffersTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.notification.NotificationTest.TC00_adminLiveApiTokenGenerator()'><b>TC00_adminLiveApiTokenGenerator</b><br>Test class: api.test.notification.NotificationTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.notification.NotificationTest@cc43f62</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC19_homepageSmartphoneVideosByHashTagTest()'><b>TC19_homepageSmartphoneVideosByHashTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC09_homepageBrandsTest()'><b>TC09_homepageBrandsTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC48_fshopHomeFlashSalesTest()'><b>TC48_fshopHomeFlashSalesTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.show.all.brands.ShowAllBrandsTest.TC00_adminLiveApiTokenGenerator()'><b>TC00_adminLiveApiTokenGenerator</b><br>Test class: api.test.show.all.brands.ShowAllBrandsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.show.all.brands.ShowAllBrandsTest@48075da3</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC61_fshopSearchProductByQueryTest()'><b>TC61_fshopSearchProductByQueryTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC55_fshopHomeFilterHotdealsTest()'><b>TC55_fshopHomeFilterHotdealsTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC15_homepageTechVideosByHashTagTest()'><b>TC15_homepageTechVideosByHashTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.signin.SigninTest.TC01_SigninWithEmailTest()'><b>TC01_SigninWithEmailTest</b><br>Test class: api.test.signin.SigninTest</td>
+<td></td>
+<td>3</td>
+<td>api.test.signin.SigninTest@8519cb4</td></tr>
+<tr>
+<td title='api.test.search.SearchTest.TC39_searchContestTest()'><b>TC39_searchContestTest</b><br>Test class: api.test.search.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.search.SearchTest@5e2c3d18</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC00_getCategoryId()'><b>TC00_getCategoryId</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.show.all.brands.ShowAllBrandsTest.TC27_brandTest()'><b>TC27_brandTest</b><br>Test class: api.test.show.all.brands.ShowAllBrandsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.show.all.brands.ShowAllBrandsTest@48075da3</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC58_fshopIdBasedProductCheckingstockQtyTest()'><b>TC58_fshopIdBasedProductCheckingstockQtyTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC57_fshopOrdersByUserTest()'><b>TC57_fshopOrdersByUserTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC47_fshopHomeParentCategoriesTest()'><b>TC47_fshopHomeParentCategoriesTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC51_fshopHomeProductsByCategoryTest()'><b>TC51_fshopHomeProductsByCategoryTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.show.all.brands.ShowAllBrandsTest.TC26_showAllBrandsTest()'><b>TC26_showAllBrandsTest</b><br>Test class: api.test.show.all.brands.ShowAllBrandsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.show.all.brands.ShowAllBrandsTest@48075da3</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC08_homepagePerticularTypeContestsTest()'><b>TC08_homepagePerticularTypeContestsTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.show.all.brands.ShowAllBrandsTest.TC29_unfollowBrandTest()'><b>TC29_unfollowBrandTest</b><br>Test class: api.test.show.all.brands.ShowAllBrandsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.show.all.brands.ShowAllBrandsTest@48075da3</td></tr>
+<tr>
+<td title='api.test.video.VideoTest.TC40_showCommentsForVideoTest()'><b>TC40_showCommentsForVideoTest</b><br>Test class: api.test.video.VideoTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.video.VideoTest@2cb4893b</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC14_homepageBeautyVideosByHashTagTest()'><b>TC14_homepageBeautyVideosByHashTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.show.all.contests.ShowAllContestsTest.TC00_adminLiveApiTokenGenerator()'><b>TC00_adminLiveApiTokenGenerator</b><br>Test class: api.test.show.all.contests.ShowAllContestsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.show.all.contests.ShowAllContestsTest@8458f04</td></tr>
+<tr>
+<td title='api.test.search.SearchTest.TC36_searchUserTest()'><b>TC36_searchUserTest</b><br>Test class: api.test.search.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.search.SearchTest@5e2c3d18</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC44_fshopDashboardShippingAddressesTest()'><b>TC44_fshopDashboardShippingAddressesTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC23_homepageTrendingVideosNewTagTest()'><b>TC23_homepageTrendingVideosNewTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.contest.detail.ContestDetailTest.TC31_contestDetailsTest()'><b>TC31_contestDetailsTest</b><br>Test class: api.test.contest.detail.ContestDetailTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.contest.detail.ContestDetailTest@68c9133c</td></tr>
+<tr>
+<td title='api.test.search.SearchTest.TC38_searchVideoTest()'><b>TC38_searchVideoTest</b><br>Test class: api.test.search.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.search.SearchTest@5e2c3d18</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC49_fshopHomePromotionalOffersTest()'><b>TC49_fshopHomePromotionalOffersTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.contest.detail.ContestDetailTest.TC00_getContestDetailsId()'><b>TC00_getContestDetailsId</b><br>Test class: api.test.contest.detail.ContestDetailTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.contest.detail.ContestDetailTest@68c9133c</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC11_homepageTopSellingFromTrafficTest()'><b>TC11_homepageTopSellingFromTrafficTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC00_getadminProductSearchId()'><b>TC00_getadminProductSearchId</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC46_fshopDashboardSupportTicketsTest()'><b>TC46_fshopDashboardSupportTicketsTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.signin.SigninTest.TC03_SigninWithSocialTest()'><b>TC03_SigninWithSocialTest</b><br>Test class: api.test.signin.SigninTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.signin.SigninTest@8519cb4</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC17_homepageFoodVideosByHashTagTest()'><b>TC17_homepageFoodVideosByHashTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC60_fshopProductReviewByIdTest()'><b>TC60_fshopProductReviewByIdTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.playlist.PlaylistTest.TC35_listVideoTypesTest()'><b>TC35_listVideoTypesTest</b><br>Test class: api.test.playlist.PlaylistTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.playlist.PlaylistTest@7a35b0f5</td></tr>
+<tr>
+<td title='api.test.video.VideoTest.TC00_getVideoId()'><b>TC00_getVideoId</b><br>Test class: api.test.video.VideoTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.video.VideoTest@2cb4893b</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC52_fshopHomeMainBannersTest()'><b>TC52_fshopHomeMainBannersTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.contest.detail.ContestDetailTest.TC32_detailPageContestVideosTest()'><b>TC32_detailPageContestVideosTest</b><br>Test class: api.test.contest.detail.ContestDetailTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.contest.detail.ContestDetailTest@68c9133c</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC59_fshopProductFaqsByIdTest()'><b>TC59_fshopProductFaqsByIdTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC18_homepageSportsVideosByHashTagTest()'><b>TC18_homepageSportsVideosByHashTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC50_fshopHomeTopSellingBrandsTest()'><b>TC50_fshopHomeTopSellingBrandsTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>3</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC00_getParentId()'><b>TC00_getParentId</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.fshop.FShopIntegrationsTest.TC45_fshopDashboardReviewByUserTest()'><b>TC45_fshopDashboardReviewByUserTest</b><br>Test class: api.test.fshop.FShopIntegrationsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.fshop.FShopIntegrationsTest@606e4010</td></tr>
+<tr>
+<td title='api.test.admin.AdminSearchProductTest.TC07_AdminLoginSearchProductTest()'><b>TC07_AdminLoginSearchProductTest</b><br>Test class: api.test.admin.AdminSearchProductTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.admin.AdminSearchProductTest@909217e</td></tr>
+<tr>
+<td title='api.test.show.all.brands.ShowAllBrandsTest.TC28_followBrandTest()'><b>TC28_followBrandTest</b><br>Test class: api.test.show.all.brands.ShowAllBrandsTest</td>
+<td></td>
+<td>0</td>
+<td>api.test.show.all.brands.ShowAllBrandsTest@48075da3</td></tr>
+<tr>
+<td title='api.test.mobile.homepage.HomepageIntegrationsTest.TC16_homepageFashionVideosByHashTagTest()'><b>TC16_homepageFashionVideosByHashTagTest</b><br>Test class: api.test.mobile.homepage.HomepageIntegrationsTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.mobile.homepage.HomepageIntegrationsTest@18271936</td></tr>
+</table><p>
+</body>
+</html>

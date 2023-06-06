@@ -27,17 +27,17 @@ public class ExtentReportManager implements ITestListener{
 		repName = "Test-Report-"+timeStamp+".html";
 		
 		sparkReporter = new ExtentSparkReporter("./reports/"+repName);//specify location of the report
-		sparkReporter.config().setDocumentTitle("RestAssuredAutomationProject");
-		sparkReporter.config().setReportName("RZY API Automation Test");
+		sparkReporter.config().setDocumentTitle("GraphQL Automation Project With RestAssured");
+		sparkReporter.config().setReportName("Fanfare API Automation Test");
 		sparkReporter.config().setTheme(Theme.DARK);
 		
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
-		extent.setSystemInfo("Application", "RZY API Automation Test");
+		extent.setSystemInfo("Application", "Fanfare API Automation Test");
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
 		extent.setSystemInfo("Environment", "QA");
-		extent.setSystemInfo("user", "mustafizur");	
+		extent.setSystemInfo("user", "Shoumik Rouf");	
 	}
 	
 	public void onTestSuccess(ITestResult result)
