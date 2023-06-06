@@ -2,220 +2,220 @@
 <testng-results ignored="0" total="71" passed="70" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-06T15:18:16 BDT" name="FanFareTest" finished-at="2023-06-06T15:18:59 BDT" duration-ms="42351">
+  <suite started-at="2023-06-06T16:03:23 BDT" name="FanFareTest" finished-at="2023-06-06T16:04:09 BDT" duration-ms="46448">
     <groups>
     </groups>
-    <test started-at="2023-06-06T15:18:16 BDT" name="Regression" finished-at="2023-06-06T15:18:59 BDT" duration-ms="42351">
+    <test started-at="2023-06-06T16:03:23 BDT" name="Regression" finished-at="2023-06-06T16:04:09 BDT" duration-ms="46448">
       <class name="api.test.playlist.PlaylistTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.playlist.PlaylistTest@7a35b0f5]" started-at="2023-06-06T15:18:55 BDT" name="setup" finished-at="2023-06-06T15:18:55 BDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.playlist.PlaylistTest@7a35b0f5]" started-at="2023-06-06T16:04:05 BDT" name="setup" finished-at="2023-06-06T16:04:05 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC33_topUsersTest()[pri:1, instance:api.test.playlist.PlaylistTest@7a35b0f5]" started-at="2023-06-06T15:18:55 BDT" name="TC33_topUsersTest" finished-at="2023-06-06T15:18:56 BDT" duration-ms="637" status="PASS">
+        <test-method signature="TC33_topUsersTest()[pri:1, instance:api.test.playlist.PlaylistTest@7a35b0f5]" started-at="2023-06-06T16:04:05 BDT" name="TC33_topUsersTest" finished-at="2023-06-06T16:04:06 BDT" duration-ms="892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC33_topUsersTest -->
-        <test-method signature="TC35_listVideoTypesTest()[pri:3, instance:api.test.playlist.PlaylistTest@7a35b0f5]" started-at="2023-06-06T15:18:56 BDT" name="TC35_listVideoTypesTest" finished-at="2023-06-06T15:18:56 BDT" duration-ms="139" status="PASS">
+        <test-method signature="TC35_listVideoTypesTest()[pri:3, instance:api.test.playlist.PlaylistTest@7a35b0f5]" started-at="2023-06-06T16:04:06 BDT" name="TC35_listVideoTypesTest" finished-at="2023-06-06T16:04:06 BDT" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC35_listVideoTypesTest -->
       </class> <!-- api.test.playlist.PlaylistTest -->
       <class name="api.test.contest.detail.ContestDetailTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.contest.detail.ContestDetailTest@68c9133c]" started-at="2023-06-06T15:18:54 BDT" name="setup" finished-at="2023-06-06T15:18:54 BDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.contest.detail.ContestDetailTest@68c9133c]" started-at="2023-06-06T16:04:04 BDT" name="setup" finished-at="2023-06-06T16:04:04 BDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC00_getContestDetailsId()[pri:1, instance:api.test.contest.detail.ContestDetailTest@68c9133c]" started-at="2023-06-06T15:18:54 BDT" name="TC00_getContestDetailsId" finished-at="2023-06-06T15:18:55 BDT" duration-ms="243" status="PASS">
+        <test-method signature="TC00_getContestDetailsId()[pri:1, instance:api.test.contest.detail.ContestDetailTest@68c9133c]" started-at="2023-06-06T16:04:04 BDT" name="TC00_getContestDetailsId" finished-at="2023-06-06T16:04:04 BDT" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_getContestDetailsId -->
-        <test-method signature="TC31_contestDetailsTest()[pri:2, instance:api.test.contest.detail.ContestDetailTest@68c9133c]" started-at="2023-06-06T15:18:55 BDT" name="TC31_contestDetailsTest" finished-at="2023-06-06T15:18:55 BDT" duration-ms="170" status="PASS">
+        <test-method signature="TC31_contestDetailsTest()[pri:2, instance:api.test.contest.detail.ContestDetailTest@68c9133c]" started-at="2023-06-06T16:04:04 BDT" name="TC31_contestDetailsTest" finished-at="2023-06-06T16:04:04 BDT" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC31_contestDetailsTest -->
-        <test-method signature="TC32_detailPageContestVideosTest()[pri:3, instance:api.test.contest.detail.ContestDetailTest@68c9133c]" started-at="2023-06-06T15:18:55 BDT" name="TC32_detailPageContestVideosTest" finished-at="2023-06-06T15:18:55 BDT" duration-ms="238" status="PASS">
+        <test-method signature="TC32_detailPageContestVideosTest()[pri:3, instance:api.test.contest.detail.ContestDetailTest@68c9133c]" started-at="2023-06-06T16:04:04 BDT" name="TC32_detailPageContestVideosTest" finished-at="2023-06-06T16:04:05 BDT" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC32_detailPageContestVideosTest -->
       </class> <!-- api.test.contest.detail.ContestDetailTest -->
       <class name="api.test.show.all.brands.ShowAllBrandsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T15:18:53 BDT" name="setup" finished-at="2023-06-06T15:18:53 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC26_showAllBrandsTest()[pri:1, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T15:18:53 BDT" name="TC26_showAllBrandsTest" finished-at="2023-06-06T15:18:53 BDT" duration-ms="229" status="PASS">
+        <test-method signature="TC26_showAllBrandsTest()[pri:1, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T16:04:02 BDT" name="TC26_showAllBrandsTest" finished-at="2023-06-06T16:04:02 BDT" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC26_showAllBrandsTest -->
-        <test-method signature="TC27_brandTest()[pri:2, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T15:18:53 BDT" name="TC27_brandTest" finished-at="2023-06-06T15:18:53 BDT" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T16:04:02 BDT" name="setup" finished-at="2023-06-06T16:04:02 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC27_brandTest()[pri:2, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T16:04:02 BDT" name="TC27_brandTest" finished-at="2023-06-06T16:04:03 BDT" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC27_brandTest -->
-        <test-method signature="TC00_adminLiveApiTokenGenerator()[pri:3, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T15:18:53 BDT" name="TC00_adminLiveApiTokenGenerator" finished-at="2023-06-06T15:18:54 BDT" duration-ms="421" status="PASS">
+        <test-method signature="TC00_adminLiveApiTokenGenerator()[pri:3, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T16:04:03 BDT" name="TC00_adminLiveApiTokenGenerator" finished-at="2023-06-06T16:04:03 BDT" duration-ms="765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_adminLiveApiTokenGenerator -->
-        <test-method signature="TC28_followBrandTest()[pri:4, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T15:18:54 BDT" name="TC28_followBrandTest" finished-at="2023-06-06T15:18:54 BDT" duration-ms="173" status="PASS">
+        <test-method signature="TC28_followBrandTest()[pri:4, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T16:04:03 BDT" name="TC28_followBrandTest" finished-at="2023-06-06T16:04:04 BDT" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC28_followBrandTest -->
-        <test-method signature="TC29_unfollowBrandTest()[pri:5, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T15:18:54 BDT" name="TC29_unfollowBrandTest" finished-at="2023-06-06T15:18:54 BDT" duration-ms="167" status="PASS">
+        <test-method signature="TC29_unfollowBrandTest()[pri:5, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T16:04:04 BDT" name="TC29_unfollowBrandTest" finished-at="2023-06-06T16:04:04 BDT" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC29_unfollowBrandTest -->
-        <test-method signature="TC30_brandContestsTest()[pri:6, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T15:18:54 BDT" name="TC30_brandContestsTest" finished-at="2023-06-06T15:18:54 BDT" duration-ms="162" status="PASS">
+        <test-method signature="TC30_brandContestsTest()[pri:6, instance:api.test.show.all.brands.ShowAllBrandsTest@48075da3]" started-at="2023-06-06T16:04:04 BDT" name="TC30_brandContestsTest" finished-at="2023-06-06T16:04:04 BDT" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC30_brandContestsTest -->
       </class> <!-- api.test.show.all.brands.ShowAllBrandsTest -->
       <class name="api.test.mobile.homepage.HomepageIntegrationsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:22 BDT" name="setup" finished-at="2023-06-06T15:18:22 BDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:29 BDT" name="setup" finished-at="2023-06-06T16:03:29 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC08_homepagePerticularTypeContestsTest()[pri:1, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:22 BDT" name="TC08_homepagePerticularTypeContestsTest" finished-at="2023-06-06T15:18:23 BDT" duration-ms="298" status="PASS">
+        <test-method signature="TC08_homepagePerticularTypeContestsTest()[pri:1, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:29 BDT" name="TC08_homepagePerticularTypeContestsTest" finished-at="2023-06-06T16:03:29 BDT" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC08_homepagePerticularTypeContestsTest -->
-        <test-method signature="TC09_homepageBrandsTest()[pri:2, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:23 BDT" name="TC09_homepageBrandsTest" finished-at="2023-06-06T15:18:23 BDT" duration-ms="321" status="PASS">
+        <test-method signature="TC09_homepageBrandsTest()[pri:2, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:29 BDT" name="TC09_homepageBrandsTest" finished-at="2023-06-06T16:03:30 BDT" duration-ms="347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC09_homepageBrandsTest -->
-        <test-method signature="TC10_homepageOffersTest()[pri:3, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:23 BDT" name="TC10_homepageOffersTest" finished-at="2023-06-06T15:18:23 BDT" duration-ms="197" status="PASS">
+        <test-method signature="TC10_homepageOffersTest()[pri:3, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:30 BDT" name="TC10_homepageOffersTest" finished-at="2023-06-06T16:03:30 BDT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC10_homepageOffersTest -->
-        <test-method signature="TC11_homepageTopSellingFromTrafficTest()[pri:4, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:23 BDT" name="TC11_homepageTopSellingFromTrafficTest" finished-at="2023-06-06T15:18:24 BDT" duration-ms="199" status="PASS">
+        <test-method signature="TC11_homepageTopSellingFromTrafficTest()[pri:4, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:30 BDT" name="TC11_homepageTopSellingFromTrafficTest" finished-at="2023-06-06T16:03:30 BDT" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC11_homepageTopSellingFromTrafficTest -->
-        <test-method signature="TC12_homepageTrendingVideosTrendingTagTest()[pri:5, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:24 BDT" name="TC12_homepageTrendingVideosTrendingTagTest" finished-at="2023-06-06T15:18:24 BDT" duration-ms="259" status="PASS">
+        <test-method signature="TC12_homepageTrendingVideosTrendingTagTest()[pri:5, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:30 BDT" name="TC12_homepageTrendingVideosTrendingTagTest" finished-at="2023-06-06T16:03:31 BDT" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC12_homepageTrendingVideosTrendingTagTest -->
-        <test-method signature="TC13_homepageTalentVideosByHashTagTest()[pri:6, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:24 BDT" name="TC13_homepageTalentVideosByHashTagTest" finished-at="2023-06-06T15:18:26 BDT" duration-ms="2349" status="PASS">
+        <test-method signature="TC13_homepageTalentVideosByHashTagTest()[pri:6, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:31 BDT" name="TC13_homepageTalentVideosByHashTagTest" finished-at="2023-06-06T16:03:33 BDT" duration-ms="2630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC13_homepageTalentVideosByHashTagTest -->
-        <test-method signature="TC14_homepageBeautyVideosByHashTagTest()[pri:7, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:26 BDT" name="TC14_homepageBeautyVideosByHashTagTest" finished-at="2023-06-06T15:18:28 BDT" duration-ms="1780" status="PASS">
+        <test-method signature="TC14_homepageBeautyVideosByHashTagTest()[pri:7, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:33 BDT" name="TC14_homepageBeautyVideosByHashTagTest" finished-at="2023-06-06T16:03:35 BDT" duration-ms="1819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC14_homepageBeautyVideosByHashTagTest -->
-        <test-method signature="TC15_homepageTechVideosByHashTagTest()[pri:8, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:28 BDT" name="TC15_homepageTechVideosByHashTagTest" finished-at="2023-06-06T15:18:30 BDT" duration-ms="1719" status="PASS">
+        <test-method signature="TC15_homepageTechVideosByHashTagTest()[pri:8, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:35 BDT" name="TC15_homepageTechVideosByHashTagTest" finished-at="2023-06-06T16:03:37 BDT" duration-ms="1847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC15_homepageTechVideosByHashTagTest -->
-        <test-method signature="TC16_homepageFashionVideosByHashTagTest()[pri:9, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:30 BDT" name="TC16_homepageFashionVideosByHashTagTest" finished-at="2023-06-06T15:18:31 BDT" duration-ms="1716" status="PASS">
+        <test-method signature="TC16_homepageFashionVideosByHashTagTest()[pri:9, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:37 BDT" name="TC16_homepageFashionVideosByHashTagTest" finished-at="2023-06-06T16:03:39 BDT" duration-ms="2148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC16_homepageFashionVideosByHashTagTest -->
-        <test-method signature="TC17_homepageFoodVideosByHashTagTest()[pri:10, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:31 BDT" name="TC17_homepageFoodVideosByHashTagTest" finished-at="2023-06-06T15:18:33 BDT" duration-ms="1782" status="PASS">
+        <test-method signature="TC17_homepageFoodVideosByHashTagTest()[pri:10, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:39 BDT" name="TC17_homepageFoodVideosByHashTagTest" finished-at="2023-06-06T16:03:41 BDT" duration-ms="1834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC17_homepageFoodVideosByHashTagTest -->
-        <test-method signature="TC18_homepageSportsVideosByHashTagTest()[pri:11, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:33 BDT" name="TC18_homepageSportsVideosByHashTagTest" finished-at="2023-06-06T15:18:35 BDT" duration-ms="1740" status="PASS">
+        <test-method signature="TC18_homepageSportsVideosByHashTagTest()[pri:11, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:41 BDT" name="TC18_homepageSportsVideosByHashTagTest" finished-at="2023-06-06T16:03:43 BDT" duration-ms="1873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC18_homepageSportsVideosByHashTagTest -->
-        <test-method signature="TC19_homepageSmartphoneVideosByHashTagTest()[pri:12, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:35 BDT" name="TC19_homepageSmartphoneVideosByHashTagTest" finished-at="2023-06-06T15:18:37 BDT" duration-ms="1792" status="PASS">
+        <test-method signature="TC19_homepageSmartphoneVideosByHashTagTest()[pri:12, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:43 BDT" name="TC19_homepageSmartphoneVideosByHashTagTest" finished-at="2023-06-06T16:03:45 BDT" duration-ms="1775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC19_homepageSmartphoneVideosByHashTagTest -->
-        <test-method signature="TC20_homepageTravelVideosByHashTagTest()[pri:13, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:37 BDT" name="TC20_homepageTravelVideosByHashTagTest" finished-at="2023-06-06T15:18:38 BDT" duration-ms="1757" status="PASS">
+        <test-method signature="TC20_homepageTravelVideosByHashTagTest()[pri:13, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:45 BDT" name="TC20_homepageTravelVideosByHashTagTest" finished-at="2023-06-06T16:03:46 BDT" duration-ms="1858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC20_homepageTravelVideosByHashTagTest -->
-        <test-method signature="TC21_homepageDecorVideosByHashTagTest()[pri:14, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:38 BDT" name="TC21_homepageDecorVideosByHashTagTest" finished-at="2023-06-06T15:18:40 BDT" duration-ms="1678" status="PASS">
+        <test-method signature="TC21_homepageDecorVideosByHashTagTest()[pri:14, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:46 BDT" name="TC21_homepageDecorVideosByHashTagTest" finished-at="2023-06-06T16:03:48 BDT" duration-ms="1778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC21_homepageDecorVideosByHashTagTest -->
-        <test-method signature="TC22_homepageHomeapplianceVideosByHashTagTest()[pri:15, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:40 BDT" name="TC22_homepageHomeapplianceVideosByHashTagTest" finished-at="2023-06-06T15:18:42 BDT" duration-ms="1719" status="PASS">
+        <test-method signature="TC22_homepageHomeapplianceVideosByHashTagTest()[pri:15, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:48 BDT" name="TC22_homepageHomeapplianceVideosByHashTagTest" finished-at="2023-06-06T16:03:50 BDT" duration-ms="2115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC22_homepageHomeapplianceVideosByHashTagTest -->
-        <test-method signature="TC23_homepageTrendingVideosNewTagTest()[pri:16, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T15:18:42 BDT" name="TC23_homepageTrendingVideosNewTagTest" finished-at="2023-06-06T15:18:42 BDT" duration-ms="250" status="PASS">
+        <test-method signature="TC23_homepageTrendingVideosNewTagTest()[pri:16, instance:api.test.mobile.homepage.HomepageIntegrationsTest@18271936]" started-at="2023-06-06T16:03:50 BDT" name="TC23_homepageTrendingVideosNewTagTest" finished-at="2023-06-06T16:03:51 BDT" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC23_homepageTrendingVideosNewTagTest -->
       </class> <!-- api.test.mobile.homepage.HomepageIntegrationsTest -->
       <class name="api.test.video.VideoTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.video.VideoTest@2cb4893b]" started-at="2023-06-06T15:18:57 BDT" name="setup" finished-at="2023-06-06T15:18:57 BDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.video.VideoTest@2cb4893b]" started-at="2023-06-06T16:04:07 BDT" name="setup" finished-at="2023-06-06T16:04:07 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC00_getVideoId()[pri:1, instance:api.test.video.VideoTest@2cb4893b]" started-at="2023-06-06T15:18:57 BDT" name="TC00_getVideoId" finished-at="2023-06-06T15:18:57 BDT" duration-ms="232" status="PASS">
+        <test-method signature="TC00_getVideoId()[pri:1, instance:api.test.video.VideoTest@2cb4893b]" started-at="2023-06-06T16:04:07 BDT" name="TC00_getVideoId" finished-at="2023-06-06T16:04:07 BDT" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_getVideoId -->
-        <test-method signature="TC40_showCommentsForVideoTest()[pri:2, instance:api.test.video.VideoTest@2cb4893b]" started-at="2023-06-06T15:18:57 BDT" name="TC40_showCommentsForVideoTest" finished-at="2023-06-06T15:18:58 BDT" duration-ms="956" status="PASS">
+        <test-method signature="TC40_showCommentsForVideoTest()[pri:2, instance:api.test.video.VideoTest@2cb4893b]" started-at="2023-06-06T16:04:07 BDT" name="TC40_showCommentsForVideoTest" finished-at="2023-06-06T16:04:08 BDT" duration-ms="1019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC40_showCommentsForVideoTest -->
-        <test-method signature="TC41_singleVideoTest()[pri:3, instance:api.test.video.VideoTest@2cb4893b]" started-at="2023-06-06T15:18:58 BDT" name="TC41_singleVideoTest" finished-at="2023-06-06T15:18:58 BDT" duration-ms="151" status="PASS">
+        <test-method signature="TC41_singleVideoTest()[pri:3, instance:api.test.video.VideoTest@2cb4893b]" started-at="2023-06-06T16:04:08 BDT" name="TC41_singleVideoTest" finished-at="2023-06-06T16:04:08 BDT" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC41_singleVideoTest -->
       </class> <!-- api.test.video.VideoTest -->
       <class name="api.test.search.SearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.search.SearchTest@5e2c3d18]" started-at="2023-06-06T15:18:56 BDT" name="setup" finished-at="2023-06-06T15:18:56 BDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.search.SearchTest@5e2c3d18]" started-at="2023-06-06T16:04:06 BDT" name="setup" finished-at="2023-06-06T16:04:06 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC36_searchUserTest()[pri:1, instance:api.test.search.SearchTest@5e2c3d18]" started-at="2023-06-06T15:18:56 BDT" name="TC36_searchUserTest" finished-at="2023-06-06T15:18:56 BDT" duration-ms="192" status="PASS">
+        <test-method signature="TC36_searchUserTest()[pri:1, instance:api.test.search.SearchTest@5e2c3d18]" started-at="2023-06-06T16:04:06 BDT" name="TC36_searchUserTest" finished-at="2023-06-06T16:04:06 BDT" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC36_searchUserTest -->
-        <test-method signature="TC37_searchVideoHashtagTest()[pri:2, instance:api.test.search.SearchTest@5e2c3d18]" started-at="2023-06-06T15:18:56 BDT" name="TC37_searchVideoHashtagTest" finished-at="2023-06-06T15:18:56 BDT" duration-ms="264" status="PASS">
+        <test-method signature="TC37_searchVideoHashtagTest()[pri:2, instance:api.test.search.SearchTest@5e2c3d18]" started-at="2023-06-06T16:04:06 BDT" name="TC37_searchVideoHashtagTest" finished-at="2023-06-06T16:04:06 BDT" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC37_searchVideoHashtagTest -->
-        <test-method signature="TC38_searchVideoTest()[pri:3, instance:api.test.search.SearchTest@5e2c3d18]" started-at="2023-06-06T15:18:56 BDT" name="TC38_searchVideoTest" finished-at="2023-06-06T15:18:56 BDT" duration-ms="199" status="PASS">
+        <test-method signature="TC38_searchVideoTest()[pri:3, instance:api.test.search.SearchTest@5e2c3d18]" started-at="2023-06-06T16:04:06 BDT" name="TC38_searchVideoTest" finished-at="2023-06-06T16:04:07 BDT" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC38_searchVideoTest -->
-        <test-method signature="TC39_searchContestTest()[pri:4, instance:api.test.search.SearchTest@5e2c3d18]" started-at="2023-06-06T15:18:56 BDT" name="TC39_searchContestTest" finished-at="2023-06-06T15:18:57 BDT" duration-ms="162" status="PASS">
+        <test-method signature="TC39_searchContestTest()[pri:4, instance:api.test.search.SearchTest@5e2c3d18]" started-at="2023-06-06T16:04:07 BDT" name="TC39_searchContestTest" finished-at="2023-06-06T16:04:07 BDT" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC39_searchContestTest -->
       </class> <!-- api.test.search.SearchTest -->
       <class name="api.test.admin.AdminSearchProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.admin.AdminSearchProductTest@909217e]" started-at="2023-06-06T15:18:22 BDT" name="setup" finished-at="2023-06-06T15:18:22 BDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.admin.AdminSearchProductTest@909217e]" started-at="2023-06-06T16:03:28 BDT" name="setup" finished-at="2023-06-06T16:03:28 BDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC00_adminLiveApiTokenGenerator()[pri:1, instance:api.test.admin.AdminSearchProductTest@909217e]" started-at="2023-06-06T15:18:22 BDT" name="TC00_adminLiveApiTokenGenerator" finished-at="2023-06-06T15:18:22 BDT" duration-ms="439" status="PASS">
+        <test-method signature="TC00_adminLiveApiTokenGenerator()[pri:1, instance:api.test.admin.AdminSearchProductTest@909217e]" started-at="2023-06-06T16:03:28 BDT" name="TC00_adminLiveApiTokenGenerator" finished-at="2023-06-06T16:03:29 BDT" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_adminLiveApiTokenGenerator -->
-        <test-method signature="TC07_AdminLoginSearchProductTest()[pri:2, instance:api.test.admin.AdminSearchProductTest@909217e]" started-at="2023-06-06T15:18:22 BDT" name="TC07_AdminLoginSearchProductTest" finished-at="2023-06-06T15:18:22 BDT" duration-ms="313" status="PASS">
+        <test-method signature="TC07_AdminLoginSearchProductTest()[pri:2, instance:api.test.admin.AdminSearchProductTest@909217e]" started-at="2023-06-06T16:03:29 BDT" name="TC07_AdminLoginSearchProductTest" finished-at="2023-06-06T16:03:29 BDT" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC07_AdminLoginSearchProductTest -->
       </class> <!-- api.test.admin.AdminSearchProductTest -->
       <class name="api.test.notification.NotificationTest">
-        <test-method signature="TC00_adminLiveApiTokenGenerator()[pri:1, instance:api.test.notification.NotificationTest@cc43f62]" started-at="2023-06-06T15:18:58 BDT" name="TC00_adminLiveApiTokenGenerator" finished-at="2023-06-06T15:18:58 BDT" duration-ms="429" status="PASS">
+        <test-method signature="TC00_adminLiveApiTokenGenerator()[pri:1, instance:api.test.notification.NotificationTest@cc43f62]" started-at="2023-06-06T16:04:08 BDT" name="TC00_adminLiveApiTokenGenerator" finished-at="2023-06-06T16:04:09 BDT" duration-ms="842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_adminLiveApiTokenGenerator -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.notification.NotificationTest@cc43f62]" started-at="2023-06-06T15:18:58 BDT" name="setup" finished-at="2023-06-06T15:18:58 BDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.notification.NotificationTest@cc43f62]" started-at="2023-06-06T16:04:08 BDT" name="setup" finished-at="2023-06-06T16:04:08 BDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC42_showNotificationListTest()[pri:2, instance:api.test.notification.NotificationTest@cc43f62]" started-at="2023-06-06T15:18:58 BDT" name="TC42_showNotificationListTest" finished-at="2023-06-06T15:18:59 BDT" duration-ms="214" status="PASS">
+        <test-method signature="TC42_showNotificationListTest()[pri:2, instance:api.test.notification.NotificationTest@cc43f62]" started-at="2023-06-06T16:04:09 BDT" name="TC42_showNotificationListTest" finished-at="2023-06-06T16:04:09 BDT" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC42_showNotificationListTest -->
       </class> <!-- api.test.notification.NotificationTest -->
       <class name="api.test.signin.SigninTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.signin.SigninTest@8519cb4]" started-at="2023-06-06T15:18:17 BDT" name="setup" finished-at="2023-06-06T15:18:17 BDT" duration-ms="543" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.signin.SigninTest@8519cb4]" started-at="2023-06-06T16:03:23 BDT" name="setup" finished-at="2023-06-06T16:03:24 BDT" duration-ms="516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC01_SigninWithEmailTest()[pri:1, instance:api.test.signin.SigninTest@8519cb4]" started-at="2023-06-06T15:18:17 BDT" name="TC01_SigninWithEmailTest" finished-at="2023-06-06T15:18:20 BDT" duration-ms="3282" status="PASS">
+        <test-method signature="TC01_SigninWithEmailTest()[pri:1, instance:api.test.signin.SigninTest@8519cb4]" started-at="2023-06-06T16:03:24 BDT" name="TC01_SigninWithEmailTest" finished-at="2023-06-06T16:03:27 BDT" duration-ms="3308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_SigninWithEmailTest -->
-        <test-method signature="TC02_SigninWithPhoneTest()[pri:2, instance:api.test.signin.SigninTest@8519cb4]" started-at="2023-06-06T15:18:20 BDT" name="TC02_SigninWithPhoneTest" finished-at="2023-06-06T15:18:22 BDT" duration-ms="1123" status="FAIL">
+        <test-method signature="TC02_SigninWithPhoneTest()[pri:2, instance:api.test.signin.SigninTest@8519cb4]" started-at="2023-06-06T16:03:27 BDT" name="TC02_SigninWithPhoneTest" finished-at="2023-06-06T16:03:28 BDT" duration-ms="866" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "Object.toString()" because "dataObject" is null]]>
@@ -257,139 +257,139 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_SigninWithPhoneTest -->
-        <test-method signature="TC03_SigninWithSocialTest()[pri:3, instance:api.test.signin.SigninTest@8519cb4]" started-at="2023-06-06T15:18:22 BDT" name="TC03_SigninWithSocialTest" finished-at="2023-06-06T15:18:22 BDT" duration-ms="184" status="PASS">
+        <test-method signature="TC03_SigninWithSocialTest()[pri:3, instance:api.test.signin.SigninTest@8519cb4]" started-at="2023-06-06T16:03:28 BDT" name="TC03_SigninWithSocialTest" finished-at="2023-06-06T16:03:28 BDT" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03_SigninWithSocialTest -->
       </class> <!-- api.test.signin.SigninTest -->
       <class name="api.test.show.all.contests.ShowAllContestsTest">
-        <test-method signature="TC00_adminLiveApiTokenGenerator()[pri:1, instance:api.test.show.all.contests.ShowAllContestsTest@8458f04]" started-at="2023-06-06T15:18:52 BDT" name="TC00_adminLiveApiTokenGenerator" finished-at="2023-06-06T15:18:52 BDT" duration-ms="421" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC00_adminLiveApiTokenGenerator -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.show.all.contests.ShowAllContestsTest@8458f04]" started-at="2023-06-06T15:18:52 BDT" name="setup" finished-at="2023-06-06T15:18:52 BDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.show.all.contests.ShowAllContestsTest@8458f04]" started-at="2023-06-06T16:04:01 BDT" name="setup" finished-at="2023-06-06T16:04:01 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC00_getUserListId()[pri:2, instance:api.test.show.all.contests.ShowAllContestsTest@8458f04]" started-at="2023-06-06T15:18:52 BDT" name="TC00_getUserListId" finished-at="2023-06-06T15:18:52 BDT" duration-ms="169" status="PASS">
+        <test-method signature="TC00_adminLiveApiTokenGenerator()[pri:1, instance:api.test.show.all.contests.ShowAllContestsTest@8458f04]" started-at="2023-06-06T16:04:01 BDT" name="TC00_adminLiveApiTokenGenerator" finished-at="2023-06-06T16:04:01 BDT" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC00_adminLiveApiTokenGenerator -->
+        <test-method signature="TC00_getUserListId()[pri:2, instance:api.test.show.all.contests.ShowAllContestsTest@8458f04]" started-at="2023-06-06T16:04:01 BDT" name="TC00_getUserListId" finished-at="2023-06-06T16:04:02 BDT" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_getUserListId -->
-        <test-method signature="TC24_showAllMyParticipationContestsTest()[pri:3, instance:api.test.show.all.contests.ShowAllContestsTest@8458f04]" started-at="2023-06-06T15:18:52 BDT" name="TC24_showAllMyParticipationContestsTest" finished-at="2023-06-06T15:18:53 BDT" duration-ms="248" status="PASS">
+        <test-method signature="TC24_showAllMyParticipationContestsTest()[pri:3, instance:api.test.show.all.contests.ShowAllContestsTest@8458f04]" started-at="2023-06-06T16:04:02 BDT" name="TC24_showAllMyParticipationContestsTest" finished-at="2023-06-06T16:04:02 BDT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC24_showAllMyParticipationContestsTest -->
-        <test-method signature="TC25_showAllperticularTypeContestsCustomTest()[pri:4, instance:api.test.show.all.contests.ShowAllContestsTest@8458f04]" started-at="2023-06-06T15:18:53 BDT" name="TC25_showAllperticularTypeContestsCustomTest" finished-at="2023-06-06T15:18:53 BDT" duration-ms="258" status="PASS">
+        <test-method signature="TC25_showAllperticularTypeContestsCustomTest()[pri:4, instance:api.test.show.all.contests.ShowAllContestsTest@8458f04]" started-at="2023-06-06T16:04:02 BDT" name="TC25_showAllperticularTypeContestsCustomTest" finished-at="2023-06-06T16:04:02 BDT" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC25_showAllperticularTypeContestsCustomTest -->
       </class> <!-- api.test.show.all.contests.ShowAllContestsTest -->
       <class name="api.test.fshop.FShopIntegrationsTest">
-        <test-method signature="TC00_signUpTokenGenerationTest()[pri:1, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:42 BDT" name="TC00_signUpTokenGenerationTest" finished-at="2023-06-06T15:18:43 BDT" duration-ms="836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC00_signUpTokenGenerationTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:42 BDT" name="setup" finished-at="2023-06-06T15:18:42 BDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:51 BDT" name="setup" finished-at="2023-06-06T16:03:51 BDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC00_adminSignInTokenGenerationTest()[pri:2, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:43 BDT" name="TC00_adminSignInTokenGenerationTest" finished-at="2023-06-06T15:18:43 BDT" duration-ms="352" status="PASS">
+        <test-method signature="TC00_signUpTokenGenerationTest()[pri:1, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:51 BDT" name="TC00_signUpTokenGenerationTest" finished-at="2023-06-06T16:03:52 BDT" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC00_signUpTokenGenerationTest -->
+        <test-method signature="TC00_adminSignInTokenGenerationTest()[pri:2, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:52 BDT" name="TC00_adminSignInTokenGenerationTest" finished-at="2023-06-06T16:03:52 BDT" duration-ms="419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_adminSignInTokenGenerationTest -->
-        <test-method signature="TC43_fshopcartProductsTest()[pri:3, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:43 BDT" name="TC43_fshopcartProductsTest" finished-at="2023-06-06T15:18:43 BDT" duration-ms="148" status="PASS">
+        <test-method signature="TC43_fshopcartProductsTest()[pri:3, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:52 BDT" name="TC43_fshopcartProductsTest" finished-at="2023-06-06T16:03:52 BDT" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC43_fshopcartProductsTest -->
-        <test-method signature="TC44_fshopDashboardShippingAddressesTest()[pri:4, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:43 BDT" name="TC44_fshopDashboardShippingAddressesTest" finished-at="2023-06-06T15:18:44 BDT" duration-ms="147" status="PASS">
+        <test-method signature="TC44_fshopDashboardShippingAddressesTest()[pri:4, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:52 BDT" name="TC44_fshopDashboardShippingAddressesTest" finished-at="2023-06-06T16:03:52 BDT" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC44_fshopDashboardShippingAddressesTest -->
-        <test-method signature="TC45_fshopDashboardReviewByUserTest()[pri:5, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:44 BDT" name="TC45_fshopDashboardReviewByUserTest" finished-at="2023-06-06T15:18:44 BDT" duration-ms="163" status="PASS">
+        <test-method signature="TC45_fshopDashboardReviewByUserTest()[pri:5, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:52 BDT" name="TC45_fshopDashboardReviewByUserTest" finished-at="2023-06-06T16:03:53 BDT" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC45_fshopDashboardReviewByUserTest -->
-        <test-method signature="TC46_fshopDashboardSupportTicketsTest()[pri:5, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:44 BDT" name="TC46_fshopDashboardSupportTicketsTest" finished-at="2023-06-06T15:18:44 BDT" duration-ms="155" status="PASS">
+        <test-method signature="TC46_fshopDashboardSupportTicketsTest()[pri:5, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:53 BDT" name="TC46_fshopDashboardSupportTicketsTest" finished-at="2023-06-06T16:03:53 BDT" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC46_fshopDashboardSupportTicketsTest -->
-        <test-method signature="TC47_fshopHomeParentCategoriesTest()[pri:6, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:44 BDT" name="TC47_fshopHomeParentCategoriesTest" finished-at="2023-06-06T15:18:44 BDT" duration-ms="157" status="PASS">
+        <test-method signature="TC47_fshopHomeParentCategoriesTest()[pri:6, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:53 BDT" name="TC47_fshopHomeParentCategoriesTest" finished-at="2023-06-06T16:03:53 BDT" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC47_fshopHomeParentCategoriesTest -->
-        <test-method signature="TC48_fshopHomeFlashSalesTest()[pri:7, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:44 BDT" name="TC48_fshopHomeFlashSalesTest" finished-at="2023-06-06T15:18:44 BDT" duration-ms="150" status="PASS">
+        <test-method signature="TC48_fshopHomeFlashSalesTest()[pri:7, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:53 BDT" name="TC48_fshopHomeFlashSalesTest" finished-at="2023-06-06T16:03:53 BDT" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC48_fshopHomeFlashSalesTest -->
-        <test-method signature="TC49_fshopHomePromotionalOffersTest()[pri:8, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:44 BDT" name="TC49_fshopHomePromotionalOffersTest" finished-at="2023-06-06T15:18:44 BDT" duration-ms="150" status="PASS">
+        <test-method signature="TC49_fshopHomePromotionalOffersTest()[pri:8, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:53 BDT" name="TC49_fshopHomePromotionalOffersTest" finished-at="2023-06-06T16:03:53 BDT" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC49_fshopHomePromotionalOffersTest -->
-        <test-method signature="TC50_fshopHomeTopSellingBrandsTest()[pri:9, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:44 BDT" name="TC50_fshopHomeTopSellingBrandsTest" finished-at="2023-06-06T15:18:48 BDT" duration-ms="3616" status="PASS">
+        <test-method signature="TC50_fshopHomeTopSellingBrandsTest()[pri:9, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:53 BDT" name="TC50_fshopHomeTopSellingBrandsTest" finished-at="2023-06-06T16:03:56 BDT" duration-ms="2951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC50_fshopHomeTopSellingBrandsTest -->
-        <test-method signature="TC00_getCategoryId()[pri:10, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:48 BDT" name="TC00_getCategoryId" finished-at="2023-06-06T15:18:49 BDT" duration-ms="937" status="PASS">
+        <test-method signature="TC00_getCategoryId()[pri:10, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:56 BDT" name="TC00_getCategoryId" finished-at="2023-06-06T16:03:57 BDT" duration-ms="869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_getCategoryId -->
-        <test-method signature="TC51_fshopHomeProductsByCategoryTest()[pri:11, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:49 BDT" name="TC51_fshopHomeProductsByCategoryTest" finished-at="2023-06-06T15:18:49 BDT" duration-ms="151" status="PASS">
+        <test-method signature="TC51_fshopHomeProductsByCategoryTest()[pri:11, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:57 BDT" name="TC51_fshopHomeProductsByCategoryTest" finished-at="2023-06-06T16:03:57 BDT" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC51_fshopHomeProductsByCategoryTest -->
-        <test-method signature="TC52_fshopHomeMainBannersTest()[pri:12, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:49 BDT" name="TC52_fshopHomeMainBannersTest" finished-at="2023-06-06T15:18:49 BDT" duration-ms="172" status="PASS">
+        <test-method signature="TC52_fshopHomeMainBannersTest()[pri:12, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:57 BDT" name="TC52_fshopHomeMainBannersTest" finished-at="2023-06-06T16:03:58 BDT" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC52_fshopHomeMainBannersTest -->
-        <test-method signature="TC53_fshopHomeOfferBannersTest()[pri:13, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:49 BDT" name="TC53_fshopHomeOfferBannersTest" finished-at="2023-06-06T15:18:49 BDT" duration-ms="167" status="PASS">
+        <test-method signature="TC53_fshopHomeOfferBannersTest()[pri:13, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:58 BDT" name="TC53_fshopHomeOfferBannersTest" finished-at="2023-06-06T16:03:58 BDT" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC53_fshopHomeOfferBannersTest -->
-        <test-method signature="TC00_getParentId()[pri:14, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:49 BDT" name="TC00_getParentId" finished-at="2023-06-06T15:18:50 BDT" duration-ms="154" status="PASS">
+        <test-method signature="TC00_getParentId()[pri:14, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:58 BDT" name="TC00_getParentId" finished-at="2023-06-06T16:03:58 BDT" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_getParentId -->
-        <test-method signature="TC54_fshopHomeCategoryChildrensTest()[pri:15, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:50 BDT" name="TC54_fshopHomeCategoryChildrensTest" finished-at="2023-06-06T15:18:50 BDT" duration-ms="154" status="PASS">
+        <test-method signature="TC54_fshopHomeCategoryChildrensTest()[pri:15, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:58 BDT" name="TC54_fshopHomeCategoryChildrensTest" finished-at="2023-06-06T16:03:58 BDT" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC54_fshopHomeCategoryChildrensTest -->
-        <test-method signature="TC55_fshopHomeFilterHotdealsTest()[pri:16, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:50 BDT" name="TC55_fshopHomeFilterHotdealsTest" finished-at="2023-06-06T15:18:50 BDT" duration-ms="529" status="PASS">
+        <test-method signature="TC55_fshopHomeFilterHotdealsTest()[pri:16, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:58 BDT" name="TC55_fshopHomeFilterHotdealsTest" finished-at="2023-06-06T16:03:59 BDT" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC55_fshopHomeFilterHotdealsTest -->
-        <test-method signature="TC00_getBannerId()[pri:17, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:50 BDT" name="TC00_getBannerId" finished-at="2023-06-06T15:18:50 BDT" duration-ms="148" status="PASS">
+        <test-method signature="TC00_getBannerId()[pri:17, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:59 BDT" name="TC00_getBannerId" finished-at="2023-06-06T16:03:59 BDT" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_getBannerId -->
-        <test-method signature="TC56_fshopHomeBannerProductsTest()[pri:18, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:50 BDT" name="TC56_fshopHomeBannerProductsTest" finished-at="2023-06-06T15:18:51 BDT" duration-ms="173" status="PASS">
+        <test-method signature="TC56_fshopHomeBannerProductsTest()[pri:18, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:59 BDT" name="TC56_fshopHomeBannerProductsTest" finished-at="2023-06-06T16:03:59 BDT" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC56_fshopHomeBannerProductsTest -->
-        <test-method signature="TC57_fshopOrdersByUserTest()[pri:19, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:51 BDT" name="TC57_fshopOrdersByUserTest" finished-at="2023-06-06T15:18:51 BDT" duration-ms="158" status="PASS">
+        <test-method signature="TC57_fshopOrdersByUserTest()[pri:19, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:59 BDT" name="TC57_fshopOrdersByUserTest" finished-at="2023-06-06T16:03:59 BDT" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC57_fshopOrdersByUserTest -->
-        <test-method signature="TC00_getadminProductSearchId()[pri:20, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:51 BDT" name="TC00_getadminProductSearchId" finished-at="2023-06-06T15:18:51 BDT" duration-ms="276" status="PASS">
+        <test-method signature="TC00_getadminProductSearchId()[pri:20, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:03:59 BDT" name="TC00_getadminProductSearchId" finished-at="2023-06-06T16:04:00 BDT" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_getadminProductSearchId -->
-        <test-method signature="TC58_fshopIdBasedProductCheckingstockQtyTest()[pri:21, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:51 BDT" name="TC58_fshopIdBasedProductCheckingstockQtyTest" finished-at="2023-06-06T15:18:51 BDT" duration-ms="159" status="PASS">
+        <test-method signature="TC58_fshopIdBasedProductCheckingstockQtyTest()[pri:21, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:04:00 BDT" name="TC58_fshopIdBasedProductCheckingstockQtyTest" finished-at="2023-06-06T16:04:00 BDT" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC58_fshopIdBasedProductCheckingstockQtyTest -->
-        <test-method signature="TC59_fshopProductFaqsByIdTest()[pri:22, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:51 BDT" name="TC59_fshopProductFaqsByIdTest" finished-at="2023-06-06T15:18:51 BDT" duration-ms="138" status="PASS">
+        <test-method signature="TC59_fshopProductFaqsByIdTest()[pri:22, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:04:00 BDT" name="TC59_fshopProductFaqsByIdTest" finished-at="2023-06-06T16:04:00 BDT" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC59_fshopProductFaqsByIdTest -->
-        <test-method signature="TC60_fshopProductReviewByIdTest()[pri:23, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:51 BDT" name="TC60_fshopProductReviewByIdTest" finished-at="2023-06-06T15:18:52 BDT" duration-ms="140" status="PASS">
+        <test-method signature="TC60_fshopProductReviewByIdTest()[pri:23, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:04:00 BDT" name="TC60_fshopProductReviewByIdTest" finished-at="2023-06-06T16:04:00 BDT" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC60_fshopProductReviewByIdTest -->
-        <test-method signature="TC61_fshopSearchProductByQueryTest()[pri:24, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:52 BDT" name="TC61_fshopSearchProductByQueryTest" finished-at="2023-06-06T15:18:52 BDT" duration-ms="185" status="PASS">
+        <test-method signature="TC61_fshopSearchProductByQueryTest()[pri:24, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:04:00 BDT" name="TC61_fshopSearchProductByQueryTest" finished-at="2023-06-06T16:04:01 BDT" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC61_fshopSearchProductByQueryTest -->
-        <test-method signature="TC62_fshopWishlistProductsTest()[pri:25, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T15:18:52 BDT" name="TC62_fshopWishlistProductsTest" finished-at="2023-06-06T15:18:52 BDT" duration-ms="149" status="PASS">
+        <test-method signature="TC62_fshopWishlistProductsTest()[pri:25, instance:api.test.fshop.FShopIntegrationsTest@606e4010]" started-at="2023-06-06T16:04:01 BDT" name="TC62_fshopWishlistProductsTest" finished-at="2023-06-06T16:04:01 BDT" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC62_fshopWishlistProductsTest -->
